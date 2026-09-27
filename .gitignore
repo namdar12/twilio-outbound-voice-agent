@@ -1,0 +1,18 @@
+# Secrets & local config — never commit these
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# OS / editor
+.DS_Store
+*.log
+
+# Third-party reference copy (Twilio's official OpenAI Realtime sample) —
+# not part of this project
+speech-assistant-openai-realtime-api-python/
